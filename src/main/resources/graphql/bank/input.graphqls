@@ -1,0 +1,5 @@
+# Create a new bank account for a new user
+input AccountCreateInput {
+    firstName: String!,
+    lastName: String!
+}

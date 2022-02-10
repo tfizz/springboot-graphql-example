@@ -1,0 +1,5 @@
+# All supported queries
+type Query{
+    accounts: [BankAccount!]
+    account(id: ID!) : BankAccount
+}

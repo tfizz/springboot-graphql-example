@@ -1,0 +1,4 @@
+# All supported mutations
+type Mutation {
+    createAccount(input: AccountCreateInput!) : BankAccount!
+}
